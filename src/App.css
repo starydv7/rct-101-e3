@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  border: 2px saddlebrown;
+   color: #2fb62f;
+  border: 2px solid red;
+}
+.grid1{
+ border: 2px solid green;
+ border-radius: 0.5rem;
+ padding: 0.5rem;
+}
+.login{
+  background-color: #17ac48;
+}
