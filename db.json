@@ -61,6 +61,41 @@
       "productId": 2,
       "count": 1,
       "id": 5
+    },
+    {
+      "productId": 2,
+      "count": 1,
+      "id": 6
+    },
+    {
+      "productId": 4,
+      "count": 1,
+      "id": 7
+    },
+    {
+      "productId": 4,
+      "count": 1,
+      "id": 8
+    },
+    {
+      "productId": 9,
+      "count": 1,
+      "id": 9
+    },
+    {
+      "productId": 8,
+      "count": 1,
+      "id": 10
+    },
+    {
+      "productId": 5,
+      "count": 1,
+      "id": 11
+    },
+    {
+      "productId": 2,
+      "count": 1,
+      "id": 12
     }
   ]
 }
