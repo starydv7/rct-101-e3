@@ -4,20 +4,19 @@ import { AuthContext } from "../../context/AuthContext";
 import { CartContext } from "../../context/CartContext";
 import { Link } from "react-router-dom";
 
-// use react-router Link or NavLink
-// const Link = <a />;
+
 
 const Navbar = () => {
   const { isAuth, logout } = useContext(AuthContext);
   const {cart,getData,length}=useContext(CartContext);
   const navigate = useNavigate();
   const handleLoginClick = () => {
-    // login screen
+   
     if (isAuth) {
       logout();
-      // he wants to logout
+      
     } else {
-      // he wants to login
+     
       navigate("/login");
     }
   };
@@ -37,7 +36,7 @@ const Navbar = () => {
       {length}
       </span>
       <button data-cy="navbar-login-logout-button" onClick={handleLoginClick}>
-        {/* Spacer */}
+        
         {isAuth ? "Logout" : "Login"}
  
         { } </button>
