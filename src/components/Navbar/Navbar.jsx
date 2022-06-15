@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { isAuth, logout } = useContext(AuthContext);
-  const {cart,getData,length}=useContext(CartContext);
+  // const {cart,getData,length}=useContext(CartContext);
   const navigate = useNavigate();
   const handleLoginClick = () => {
    
@@ -33,7 +33,7 @@ const Navbar = () => {
 
     
       <span data-cy="navbar-cart-items-count">
-      {length}
+      {/* {length} */}
       </span>
       <button data-cy="navbar-login-logout-button" onClick={handleLoginClick}>
         
